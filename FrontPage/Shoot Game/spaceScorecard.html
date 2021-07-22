@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreCard</title>
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    width: 100vh;
+    }  
+    body{
+        background-color: antiquewhite;
+       padding: 30px;
+    }
+    .back {
+    position: absolute;
+    background: black;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 85vh;
+    left: 90vw;
+    cursor: pointer;   
+   
+}
+
+.table{
+    width: 50%;
+    position: relative;
+    left: 30%;
+}
+</style>
+<body>
+    <div class="SCORECARD">
+        <h2 style="position: relative;
+        left: 100%;">SCORECARD</h2>
+
+   <table class="table" >
+    <tr>
+    <th style="background: rgb(0, 255, 187); position: relative;left: 70%;">NAME</th>
+    <th style="background: rgb(0, 255, 187);position: relative; left: 140%;">SCORE</th> 
+    </tr>
+    
+   </table>
+
+    </div>
+
+    <div class="back">Back</div>
+
+    <script>
+       
+      document.querySelector(".back").addEventListener("click", function () {
+        window.location.assign("space.html");
+      });
+      
+    </script>
+    <script src="spacedb.js"></script>
+</body>
+</html>

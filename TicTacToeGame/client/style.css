@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+      text-align: center;
+      background: darkolivegreen;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background: url("tictac.jpeg");
+    }
+
+    .board button {
+        color: #009688;
+        font-family: 'Press Start 2P', cursive;
+        font-size: x-large;
+        text-shadow: 5px 5px 5px #c981ff;
+        font-size: 60px;
+        height: 137px;
+        width: 190px;
+        margin: 5px;
+        padding: 0px;
+         border-radius: 18px;
+        
+    }
+    .board{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-gap: 10px;
+        width: 620px;
+        height: 477px;
+        border: none;
+        border-radius: 14px;
+        background: #0000002e;
+        box-shadow: 12px 12px 24px #c7c7c7, -18px -15px 24px #f9f9f9;
+        margin-top: 128px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .board > #a0:hover{
+        border-radius: 16px;
+        background: #dcb596fb;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    
+    .board > #a0{
+        transition: box-shadow 0.2s linear 0.2s;
+    }
+    
+     
+    .board > #a1:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    .board > #a1{
+        transition: box-shadow 0.2s linear 0.2s;
+    }
+    
+    .board > #a2:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    
+    .board > #a2{
+        transition: box-shadow 0.2s linear 0.2s;
+    }
+    
+    .board > #b0:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    
+    .board > #b0{
+        transition: box-shadow 0.2s linear 0.2s;
+    }
+    
+    .board > #b1:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    
+    .board > #b1{
+        transition: box-shadow 0.2s linear 0.2s;
+    } 
+    
+    .board > #b2:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    
+    .board > #b2{
+        transition: box-shadow 0.2s linear 0.2s;
+    } 
+    
+    .board > #c0:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    .board > #c0{
+        transition: box-shadow 0.2s linear 0.2s;
+    } 
+    .board > #c1:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    .board > #c1{
+        transition: box-shadow 0.2s linear 0.2s;
+    } 
+    
+    .board > #c2:hover{
+        border-radius: 16px;
+        background: #c79b78;
+        box-shadow:  11px 11px 25px #b6b7bd,
+                     -11px -11px 25px #ffffff;
+    }
+    
+    .board > #c2{
+        transition: box-shadow 0.2s linear 0.2s;
+    }
+    #messages {
+        color: #000000;
+        font-size: 27px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 600px;
+        word-spacing: 12px;
+        outline: none;
+        font-family: cursive;
+        background: #00000063;
+        border: 3px solid rgba(255,255, 255,0.2);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0),
+        -3px -2px 3px rgba(255, 255, 255,0.2),
+        2px 2px 2px rgba(0,0,0,0.08) inset;
+    } 
+    .back {
+        position: absolute;
+        background: black;
+        color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 85vh;
+        left: 90vw;
+        cursor: pointer;   
+       
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
